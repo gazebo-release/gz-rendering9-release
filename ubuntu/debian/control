@@ -1,4 +1,4 @@
-Source: gz-rendering7
+Source: gz-rendering8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -20,17 +20,15 @@ Build-Depends: cmake,
                libogre-1.9-dev,
                libogre-next-2.3-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
-Vcs-Git: https://github.com/gazebo-release/gz-rendering7-release
+Vcs-Git: https://github.com/gazebo-release/gz-rendering8-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-rendering7
+Package: libgz-rendering8
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering7 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Shared library
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -46,7 +44,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Shared libr
 #        freeglut3-dev,
 #        libglew-dev,
 
-Package: libgz-rendering7-core-dev
+Package: libgz-rendering8-core-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -56,11 +54,9 @@ Depends: libgz-cmake3-dev,
          libgz-math7-dev,
          libgz-math7-eigen3-dev,
          libgz-plugin2-dev,
-         libgz-rendering7 (= ${binary:Version}),
+         libgz-rendering8 (= ${binary:Version}),
          libgz-utils2-dev,
          ${misc:Depends}
-Breaks: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-core-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions - Core development files
   Gazebo rendering is a component in the Gazebo framework, a set of libraries
@@ -68,7 +64,7 @@ Description: Gazebo Rendering classes and functions - Core development files
   .
   Core development files
 
-Package: libgz-rendering7-ogre1-dev
+Package: libgz-rendering8-ogre1-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -79,11 +75,9 @@ Depends: libgz-cmake3-dev,
          libgz-math7-eigen3-dev,
          libogre-1.9-dev,
          libgz-plugin2-dev,
-         libgz-rendering7-core-dev (= ${binary:Version}),
-         libgz-rendering7-ogre1 (= ${binary:Version}),
+         libgz-rendering8-core-dev (= ${binary:Version}),
+         libgz-rendering8-ogre1 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-rendering7-ogre1-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-ogre1-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -93,12 +87,10 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev f
  .
  Ogre1 component development files
 
-Package: libgz-rendering7-ogre1
+Package: libgz-rendering8-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering7-ogre1 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-ogre1 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -108,7 +100,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  .
  Ogre1 component shared library
 
-Package: libgz-rendering7-ogre2-dev
+Package: libgz-rendering8-ogre2-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -119,11 +111,9 @@ Depends: libgz-cmake3-dev,
          libgz-math7-eigen3-dev,
          libogre-next-2.3-dev,
          libgz-plugin2-dev,
-         libgz-rendering7-core-dev (= ${binary:Version}),
-         libgz-rendering7-ogre2 (= ${binary:Version}),
+         libgz-rendering8-core-dev (= ${binary:Version}),
+         libgz-rendering8-ogre2 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-rendering7-ogre2-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-ogre2-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Development files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -135,12 +125,10 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  .
  Ogre2 component development files
 
-Package: libgz-rendering7-ogre2
+Package: libgz-rendering8-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering7-ogre2 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-ogre2 (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Development files
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -152,16 +140,14 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  .
  Ogre2 component shared library
 
-Package: libgz-rendering7-dev
+Package: libgz-rendering8-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-rendering7-core-dev (= ${binary:Version}),
-         libgz-rendering7-ogre1-dev (= ${binary:Version}),
-         libgz-rendering7-ogre2-dev (= ${binary:Version}),
-         libgz-rendering7 (= ${binary:Version}),
+Depends: libgz-rendering8-core-dev (= ${binary:Version}),
+         libgz-rendering8-ogre1-dev (= ${binary:Version}),
+         libgz-rendering8-ogre2-dev (= ${binary:Version}),
+         libgz-rendering8 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-rendering7-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
-Replaces: libignition-rendering7-dev (<< 6.999.999+nightly+git20220630+1r67ee5dba661309b03990cff06bad32a04f64fc09-1)
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Metapackage
  Gazebo Rendering is a C++ library designed to provide an abstraction for
@@ -173,56 +159,56 @@ Description: Gazebo Rendering classes and functions for robot apps - Metapackage
  .
  Metapackage for development files
 
-Package: libignition-rendering7
-Depends: libgz-rendering7, ${misc:Depends}
+Package: libignition-rendering8
+Depends: libgz-rendering8, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-core-dev
-Depends: libgz-rendering7-core-dev, ${misc:Depends}
+Package: libignition-rendering8-core-dev
+Depends: libgz-rendering8-core-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-ogre1-dev
-Depends: libgz-rendering7-ogre1-dev, ${misc:Depends}
+Package: libignition-rendering8-ogre1-dev
+Depends: libgz-rendering8-ogre1-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-ogre1
-Depends: libgz-rendering7-ogre1, ${misc:Depends}
+Package: libignition-rendering8-ogre1
+Depends: libgz-rendering8-ogre1, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-ogre2-dev
-Depends: libgz-rendering7-ogre2-dev, ${misc:Depends}
+Package: libignition-rendering8-ogre2-dev
+Depends: libgz-rendering8-ogre2-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-ogre2
-Depends: libgz-rendering7-ogre2, ${misc:Depends}
+Package: libignition-rendering8-ogre2
+Depends: libgz-rendering8-ogre2, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-rendering7-dev
-Depends: libgz-rendering7-dev, ${misc:Depends}
+Package: libignition-rendering8-dev
+Depends: libgz-rendering8-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
