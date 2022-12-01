@@ -1,0 +1,7 @@
+usr/include/*/rendering[0-99]/*/rendering/ogre/*
+usr/include/*/rendering[0-99]/*/rendering/ogre.hh
+usr/lib/*/lib*-rendering[0-99]-ogre.so
+usr/lib/*/pkgconfig/*-rendering[0-99]-ogre.pc
+usr/lib/*/cmake/*-rendering[0-99]-ogre/*
+usr/lib/*/*-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre.so
+usr/share/gz/*-rendering[0-99]/ogre/*

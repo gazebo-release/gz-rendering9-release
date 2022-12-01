@@ -1,0 +1,2 @@
+usr/lib/*/lib*-rendering[0-99]-ogre.so.*
+usr/lib/*/*-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre.so.*
