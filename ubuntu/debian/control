@@ -18,7 +18,8 @@ Build-Depends: cmake,
                libgz-plugin2-dev,
                libgz-utils2-dev,
                libogre-1.9-dev,
-               libogre-next-2.3-dev
+               libogre-next-2.3-dev,
+               libvulkan-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
 Vcs-Git: https://github.com/gazebo-release/gz-rendering8-release
 Standards-Version: 4.5.1
