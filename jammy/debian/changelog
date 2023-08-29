@@ -1,3 +1,9 @@
+gz-rendering8 (8.0.0~pre1-1~jammy) jammy; urgency=medium
+
+  * gz-rendering8 8.0.0~pre1-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Tue, 29 Aug 2023 22:23:26 +0000
+
 gz-rendering8 (7.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
