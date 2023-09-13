@@ -1,3 +1,9 @@
+gz-rendering8 (8.0.0~pre2-2~jammy) jammy; urgency=medium
+
+  * gz-rendering8 8.0.0~pre2-2 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 13 Sep 2023 13:33:08 -0500
+
 gz-rendering8 (8.0.0~pre2-1~jammy) jammy; urgency=medium
 
   * gz-rendering8 8.0.0~pre2-1 release
