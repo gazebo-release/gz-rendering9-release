@@ -1,4 +1,4 @@
-Source: gz-rendering8
+Source: gz-rendering9
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -21,11 +21,11 @@ Build-Depends: cmake,
                libogre-next-2.3-dev,
                libvulkan-dev
 Vcs-Browser: https://github.com/gazebosim/gz-rendering
-Vcs-Git: https://github.com/gazebo-release/gz-rendering8-release
+Vcs-Git: https://github.com/gazebo-release/gz-rendering9-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-rendering8
+Package: libgz-rendering9
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -45,7 +45,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Shared libr
 #        freeglut3-dev,
 #        libglew-dev,
 
-Package: libgz-rendering8-core-dev
+Package: libgz-rendering9-core-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -55,7 +55,7 @@ Depends: libgz-cmake3-dev,
          libgz-math7-dev,
          libgz-math7-eigen3-dev,
          libgz-plugin2-dev,
-         libgz-rendering8 (= ${binary:Version}),
+         libgz-rendering9 (= ${binary:Version}),
          libgz-utils2-dev,
          ${misc:Depends}
 Multi-Arch: same
@@ -65,7 +65,7 @@ Description: Gazebo Rendering classes and functions - Core development files
   .
   Core development files
 
-Package: libgz-rendering8-ogre1-dev
+Package: libgz-rendering9-ogre1-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -76,8 +76,8 @@ Depends: libgz-cmake3-dev,
          libgz-math7-eigen3-dev,
          libogre-1.9-dev,
          libgz-plugin2-dev,
-         libgz-rendering8-core-dev (= ${binary:Version}),
-         libgz-rendering8-ogre1 (= ${binary:Version}),
+         libgz-rendering9-core-dev (= ${binary:Version}),
+         libgz-rendering9-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev files
@@ -88,7 +88,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev f
  .
  Ogre1 component development files
 
-Package: libgz-rendering8-ogre1
+Package: libgz-rendering9-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -101,7 +101,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
  .
  Ogre1 component shared library
 
-Package: libgz-rendering8-ogre2-dev
+Package: libgz-rendering9-ogre2-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -113,8 +113,8 @@ Depends: libgz-cmake3-dev,
          libogre-next-2.3-dev,
          libvulkan-dev,
          libgz-plugin2-dev,
-         libgz-rendering8-core-dev (= ${binary:Version}),
-         libgz-rendering8-ogre2 (= ${binary:Version}),
+         libgz-rendering9-core-dev (= ${binary:Version}),
+         libgz-rendering9-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Development files
@@ -127,7 +127,7 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  .
  Ogre2 component development files
 
-Package: libgz-rendering8-ogre2
+Package: libgz-rendering9-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -142,13 +142,13 @@ Description: Gazebo Rendering classes and functions for robot apps - Development
  .
  Ogre2 component shared library
 
-Package: libgz-rendering8-dev
+Package: libgz-rendering9-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-rendering8-core-dev (= ${binary:Version}),
-         libgz-rendering8-ogre1-dev (= ${binary:Version}),
-         libgz-rendering8-ogre2-dev (= ${binary:Version}),
-         libgz-rendering8 (= ${binary:Version}),
+Depends: libgz-rendering9-core-dev (= ${binary:Version}),
+         libgz-rendering9-ogre1-dev (= ${binary:Version}),
+         libgz-rendering9-ogre2-dev (= ${binary:Version}),
+         libgz-rendering9 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Metapackage
