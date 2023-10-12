@@ -9,14 +9,14 @@ Build-Depends: cmake,
                freeglut3-dev,
                libglew-dev,
                libfreeimage-dev,
-               libgz-cmake3-dev,
-               libgz-common5-events-dev,
-               libgz-common5-geospatial-dev,
-               libgz-common5-graphics-dev,
-               libgz-math7-dev,
-               libgz-math7-eigen3-dev,
-               libgz-plugin2-dev,
-               libgz-utils2-dev,
+               libgz-cmake4-dev,
+               libgz-common6-events-dev,
+               libgz-common6-geospatial-dev,
+               libgz-common6-graphics-dev,
+               libgz-math8-dev,
+               libgz-math8-eigen3-dev,
+               libgz-plugin3-dev,
+               libgz-utils3-dev,
                libogre-1.9-dev,
                libogre-next-2.3-dev,
                libvulkan-dev
@@ -48,15 +48,15 @@ Description: Gazebo Rendering classes and functions for robot apps - Shared libr
 Package: libgz-rendering9-core-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-cmake3-dev,
-         libgz-common5-events-dev,
-         libgz-common5-geospatial-dev,
-         libgz-common5-graphics-dev,
-         libgz-math7-dev,
-         libgz-math7-eigen3-dev,
-         libgz-plugin2-dev,
+Depends: libgz-cmake4-dev,
+         libgz-common6-events-dev,
+         libgz-common6-geospatial-dev,
+         libgz-common6-graphics-dev,
+         libgz-math8-dev,
+         libgz-math8-eigen3-dev,
+         libgz-plugin3-dev,
          libgz-rendering9 (= ${binary:Version}),
-         libgz-utils2-dev,
+         libgz-utils3-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions - Core development files
@@ -68,14 +68,14 @@ Description: Gazebo Rendering classes and functions - Core development files
 Package: libgz-rendering9-ogre1-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-cmake3-dev,
-         libgz-common5-events-dev,
-         libgz-common5-geospatial-dev,
-         libgz-common5-graphics-dev,
-         libgz-math7-dev,
-         libgz-math7-eigen3-dev,
+Depends: libgz-cmake4-dev,
+         libgz-common6-events-dev,
+         libgz-common6-geospatial-dev,
+         libgz-common6-graphics-dev,
+         libgz-math8-dev,
+         libgz-math8-eigen3-dev,
          libogre-1.9-dev,
-         libgz-plugin2-dev,
+         libgz-plugin3-dev,
          libgz-rendering9-core-dev (= ${binary:Version}),
          libgz-rendering9-ogre1 (= ${binary:Version}),
          ${misc:Depends}
@@ -104,15 +104,15 @@ Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
 Package: libgz-rendering9-ogre2-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-cmake3-dev,
-         libgz-common5-events-dev,
-         libgz-common5-geospatial-dev,
-         libgz-common5-graphics-dev,
-         libgz-math7-dev,
-         libgz-math7-eigen3-dev,
+Depends: libgz-cmake4-dev,
+         libgz-common6-events-dev,
+         libgz-common6-geospatial-dev,
+         libgz-common6-graphics-dev,
+         libgz-math8-dev,
+         libgz-math8-eigen3-dev,
          libogre-next-2.3-dev,
          libvulkan-dev,
-         libgz-plugin2-dev,
+         libgz-plugin3-dev,
          libgz-rendering9-core-dev (= ${binary:Version}),
          libgz-rendering9-ogre2 (= ${binary:Version}),
          ${misc:Depends}
