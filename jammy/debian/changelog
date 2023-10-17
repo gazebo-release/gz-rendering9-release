@@ -1,38 +1,6 @@
-gz-rendering8 (8.0.0-1~jammy) jammy; urgency=medium
-
-  * gz-rendering8 8.0.0-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 29 Sep 2023 14:05:32 -0500
-
-gz-rendering8 (8.0.0~pre3-1~jammy) jammy; urgency=medium
-
-  * gz-rendering8 8.0.0~pre3-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 27 Sep 2023 21:42:36 -0500
-
-gz-rendering8 (8.0.0~pre2-2~jammy) jammy; urgency=medium
-
-  * gz-rendering8 8.0.0~pre2-2 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 13 Sep 2023 13:33:08 -0500
-
-gz-rendering8 (8.0.0~pre2-1~jammy) jammy; urgency=medium
-
-  * gz-rendering8 8.0.0~pre2-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Tue, 12 Sep 2023 21:55:59 +0000
-
-gz-rendering8 (8.0.0~pre1-1~jammy) jammy; urgency=medium
-
-  * gz-rendering8 8.0.0~pre1-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Tue, 29 Aug 2023 22:23:26 +0000
-
-gz-rendering8 (7.999.999-1~jammy) jammy; urgency=medium
+gz-rendering9 (8.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Ian Chen <ichen@openrobotics.org>  Wed, 30 Nov 2022 17:02:31 -0700
-
-
+ -- Ian Chen <ichen@openrobotics.org>  Wed, 11 Oct 2023 20:53:45 +0000
 
