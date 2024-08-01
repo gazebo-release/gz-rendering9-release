@@ -8,7 +8,8 @@ endif
 
 .PHONY: override_dh_auto_configure \
         override_dh_install \
-        override_dh_auto_test
+        override_dh_auto_test \
+	override_dh_auto_build
 
 %:
 	dh $@
@@ -18,7 +19,14 @@ override_dh_auto_configure:
 	    -DSKIP_optix=true \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo $(EXTRA_CMAKE_FLAGS)
 
+# Execute doc creation to export at least the doxygen tag file
+override_dh_auto_build:
+	dh_auto_build -- doc
+	dh_auto_build
+
 override_dh_install:
+	install -d debian/tmp/usr/share/gz/gz-rendering9/
+	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-rendering9/
 	dh_install --
 	# need to remove files present in components
 	$(RM) debian/libgz-rendering*-core-dev/usr/include/gz/rendering*/gz/rendering/ogre.hh
