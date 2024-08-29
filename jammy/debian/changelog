@@ -1,3 +1,9 @@
+gz-rendering9 (9.0.0~pre2-1~jammy) jammy; urgency=medium
+
+  * gz-rendering9 9.0.0~pre2-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Thu, 29 Aug 2024 01:41:29 +0000
+
 gz-rendering9 (9.0.0~pre1-1~jammy) jammy; urgency=medium
 
   * gz-rendering9 9.0.0~pre1-1 release
