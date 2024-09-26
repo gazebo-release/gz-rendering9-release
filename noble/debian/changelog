@@ -1,3 +1,9 @@
+gz-rendering9 (9.0.0-1~noble) noble; urgency=medium
+
+  * gz-rendering9 9.0.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 26 Sep 2024 13:57:10 -0500
+
 gz-rendering9 (9.0.0~pre2-1~noble) noble; urgency=medium
 
   * gz-rendering9 9.0.0~pre2-1 release
@@ -9,9 +15,3 @@ gz-rendering9 (9.0.0~pre1-1~noble) noble; urgency=medium
   * gz-rendering9 9.0.0~pre1-1 release
 
  -- Ian Chen <ichen@openrobotics.org>  Wed, 28 Aug 2024 01:01:06 +0000
-
-gz-rendering9 (8.999.999-1~noble) noble; urgency=medium
-
-  * First release for noble
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 09 Feb 2024 19:28:20 +0100
