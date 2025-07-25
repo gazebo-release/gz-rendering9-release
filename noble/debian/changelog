@@ -1,3 +1,9 @@
+gz-rendering9 (9.3.0-1~noble) noble; urgency=medium
+
+  * gz-rendering9 9.3.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 25 Jul 2025 22:39:40 +0000
+
 gz-rendering9 (9.2.0-1~noble) noble; urgency=medium
 
   * gz-rendering9 9.2.0-1 release
